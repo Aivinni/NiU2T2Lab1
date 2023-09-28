@@ -6,5 +6,13 @@ public class Point {
         this.x = x;
         this.y = y;
     }
-    public Point()
+    public Point(int coordinates) {
+        x = coordinates;
+        y = coordinates;
+    }
+
+    public Point() {
+        x = 0;
+        y = 0;
+    }
 }
