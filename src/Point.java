@@ -50,7 +50,7 @@ public class Point {
         } else if (x == 0) {
             return "On y-axis";
         } else if (y == 0) {
-            return "On y-axis";
+            return "On x-axis";
         }
         return null;
     }
